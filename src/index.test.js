@@ -385,7 +385,7 @@ describe('HTML Forms and Interactive Elements', () => {
 
             it('should have correct text', () => {
                 expect(button.textContent.trim())
-                    .toBe('Send you data to NASA');
+                    .toBe('Send your data to NASA');
             });
         });
     });
