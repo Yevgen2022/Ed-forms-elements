@@ -79,8 +79,27 @@
         
             <section id="participation-details">
                 <h3>Participation details</h3>
-                <p id="uniform-color-p"></p>
-                <p id="preferred-mission-role-p"></p>
+                
+                <details>
+                    <summary>More info</summary>
+                    Please, provide information about your preferences. We don't guarantee them, but we will try..
+                </details>
+                
+                <p id="uniform-color-p">
+                    <label for="uniform-color">Uniform color</label>
+                    <input type="color" id="uniform-color" name="uniform-color">
+                </p>
+                
+                <p id="preferred-mission-role-p">
+                    <label for="preferred-mission-role">Preferred Role in a mission</label>
+                    <input type="text" id="preferred-mission-role" name="preferred-mission-role" list="roles">
+                    <datalist id="roles">
+                        <option value="Pilot">
+                        <option value="Doctor">
+                        <option value="Scientist">
+                        <option value="Experimentator">
+                    </datalist>
+                </p>
             </section>
         
             <p id="agree-part"></p>
