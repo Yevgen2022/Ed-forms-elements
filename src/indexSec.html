@@ -27,24 +27,21 @@
 
     <form action="" method="post" enctype="multipart/form-data" name="applicant-data">
         <h2>NASA program application form</h2>
-
+    
         <section id="contact-info">
             <h3>Contact Info</h3>
-
             <p>
                 <label>
                     Full Name:
                     <input type="text" name="full-name">
                 </label>
             </p>
-
             <p>
                 <label>
                     Address:
                     <input type="text" name="address">
                 </label>
             </p>
-
             <p>
                 <label>
                     Email:
@@ -52,42 +49,44 @@
                 </label>
             </p>
         </section>
-
+    
         <section id="about">
             <h3>About</h3>
-
-            <ul>
-                <li>
-                    <label>
-                        Military
-                        <input type="text">
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                        Technical
-                        <input type="text">
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                        Student
-                        <input type="text">
-                    </label>
-                </li>
-            </ul>
-
-            <p id="bio-p"></p>
+            <fieldset>
+                <legend>University Degree</legend>
+                <ul>
+                    <li>
+                        <label>
+                            Military
+                            <input type="radio" name="degree" value="military">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Technical
+                            <input type="radio" name="degree" value="technical">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Student
+                            <input type="radio" name="degree" value="student">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p id="bio-p">
+                <label for="bio">BIO</label>
+                <textarea id="bio" name="bio"></textarea>
+            </p>
         </section>
-
+    
         <section id="participation-details">
             <h3>Participation details</h3>
             <p id="uniform-color-p"></p>
             <p id="preferred-mission-role-p"></p>
         </section>
-
+    
         <p id="agree-part"></p>
         <section id="agree-and-submit"></section>
     </form>
