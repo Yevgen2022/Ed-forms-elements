@@ -2,15 +2,10 @@
 
 A form-building project focused on creating a semantically correct, accessible, and well-structured multi-section form. The task involved restructuring and enhancing form elements to meet strict validation and accessibility guidelines without modifying the HTML structure beyond what was required.
 
-## 🚀 Live Demo
-👉 [Click here to view](https://html-forms-and-interactive-elements-3ac058.gitlab.io)
+## Live Demo
+[Click here to view](https://html-forms-and-interactive-elements-3ac058.gitlab.io)
 
-<!-- ## 📁 Repository
-👉 [GitLab Repo](https://gitlab.com/Yevhen2022/contact-info-form)
-
---- -->
-
-## 🧠 Key Concepts Applied
+## Key Concepts Applied
 
 - Wrapped `<input>` elements with `<label>`s for proper semantic structure and accessibility
 - Used `name`, `type`, `id`, and `for` attributes to associate labels with form inputs
@@ -23,7 +18,7 @@ A form-building project focused on creating a semantically correct, accessible, 
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 - HTML5
 - Semantic HTML
@@ -34,6 +29,6 @@ A form-building project focused on creating a semantically correct, accessible, 
 
 ---
 
-## 📝 Task Instructions
+## Task Instructions
 
 See [REQUIREMENTS.md](./REQUIREMENTS.md) for the original training task description and expected HTML behavior.
