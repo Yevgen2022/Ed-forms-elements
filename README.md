@@ -3,7 +3,7 @@
 A form-building project focused on creating a semantically correct, accessible, and well-structured multi-section form. The task involved restructuring and enhancing form elements to meet strict validation and accessibility guidelines without modifying the HTML structure beyond what was required.
 
 ## Live Demo
-[Click here to view](https://html-forms-and-interactive-elements-3ac058.gitlab.io)
+[Click here to view](https://yevgen2022.github.io/Ed-forms-elements/)
 
 ## Key Concepts Applied
 
